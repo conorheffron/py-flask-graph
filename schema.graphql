@@ -1,0 +1,14 @@
+type Query {
+    hello: String!
+    goodbye: String!
+    items: [Item!]!
+}
+
+type Item {
+    name: String!
+    quantity: Int!
+}
+
+type Mutation {
+    addItem(name: String!, quantity: Int!): Item!
+}
