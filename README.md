@@ -1,4 +1,4 @@
-# py-graph
+# py-flask-graph
 
 ### Run Flask App
 ```shell
