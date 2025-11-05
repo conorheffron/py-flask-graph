@@ -4,12 +4,12 @@ blinker==1.9.0
 click==8.3.0
 Flask==3.1.2
 flask-cors==6.0.1
-graphql-core==3.2.6
+graphql-core==3.2.5
 idna==3.11
 itsdangerous==2.2.0
 Jinja2==3.1.6
 MarkupSafe==3.0.3
 sniffio==1.3.1
-starlette==0.48.0
+starlette==0.49.1
 typing_extensions==4.15.0
 Werkzeug==3.1.3
