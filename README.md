@@ -1,5 +1,7 @@
 # py-flask-graph
 
+[![Python application](https://github.com/conorheffron/py-flask-graph/actions/workflows/python-app.yml/badge.svg)](https://github.com/conorheffron/py-flask-graph/actions/workflows/python-app.yml)
+
 ### Run Flask App
 ```shell
 bash ./run.sh 
