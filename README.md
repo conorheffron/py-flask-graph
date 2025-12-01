@@ -6,6 +6,12 @@
 
 ### Run Flask App
 ```shell
+sudo pipenv shell
+```
+```shell
+pipenv install -r requirements.txt
+```
+```shell
 bash ./run.sh 
 ```
 
