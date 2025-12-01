@@ -1,7 +1,7 @@
 anyio==4.12.0
 ariadne==0.26.2
 blinker==1.9.0
-click==8.3.0
+click==8.3.1
 Flask==3.1.2
 flask-cors==6.0.1
 graphql-core==3.2.5
