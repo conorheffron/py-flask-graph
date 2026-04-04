@@ -9,7 +9,7 @@
 sudo pipenv shell
 ```
 ```shell
-pipenv install -r requirements.txt
+sudo pipenv install -r requirements.txt
 ```
 ```shell
 bash ./run.sh 
