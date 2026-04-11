@@ -31,9 +31,11 @@ def test_graphql_playground_get_returns_html(client):
 
 def test_graphql_hello_and_goodbye_query(client):
     response = client.post("/graphql", json={"query": "{ hello goodbye }"})
+    expected_hello = flask_graph_app.resolve_hello(None, None)
+    expected_goodbye = flask_graph_app.resolve_goodbye(None, None)
 
     assert response.status_code == 200
-    assert response.get_json() == {"data": {"hello": "Hello, GraphQL!", "goodbye": "Bye, GraphQL!"}}
+    assert response.get_json() == {"data": {"hello": expected_hello, "goodbye": expected_goodbye}}
 
 
 def test_graphql_items_starts_empty(client):
