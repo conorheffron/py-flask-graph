@@ -33,7 +33,7 @@ def test_graphql_hello_and_goodbye_query(client):
     response = client.post("/graphql", json={"query": "{ hello goodbye }"})
 
     assert response.status_code == 200
-    assert response.get_json() == {"data": {"hello": "Hello, world!", "goodbye": "Goodbye, world!"}}
+    assert response.get_json() == {"data": {"hello": "Hello, GraphQL!", "goodbye": "Bye, GraphQL!"}}
 
 
 def test_graphql_items_starts_empty(client):
