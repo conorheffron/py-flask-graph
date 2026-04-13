@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "dc81e3370025f97dbd0a5a223cba22a9f22368b7f95a331412b3589fdc78160e"
+            "sha256": "4bcb83d91f9797978a188d97cab4bb77a5e67c8489b0c8fdaa6a42d1c4ee1a0a"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -18,12 +18,12 @@
     "default": {
         "anyio": {
             "hashes": [
-                "sha256:08b310f9e24a9594186fd75b4f73f4a4152069e3853f1ed8bfbf58369f4ad708",
-                "sha256:334b70e641fd2221c1505b3890c69882fe4a2df910cba14d97019b90b24439dc"
+                "sha256:41cfcc3a4c85d3f05c932da7c26d0201ac36f72abd4435ba90d0464a3ffed703",
+                "sha256:d405828884fc140aa80a3c667b8beed277f1dfedec42ba031bd6ac3db606ab6c"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.10'",
-            "version": "==4.13.0"
+            "markers": "python_version >= '3.9'",
+            "version": "==4.12.1"
         },
         "ariadne": {
             "hashes": [
@@ -213,12 +213,12 @@
         },
         "starlette": {
             "hashes": [
-                "sha256:0029d43eb3d273bc4f83a08720b4912ea4b071087a3b48db01b7c839f7954d74",
-                "sha256:834edd1b0a23167694292e94f597773bc3f89f362be6effee198165a35d62933"
+                "sha256:6a4beaf1f81bb472fd19ea9b918b50dc3a77a6f2e190a12954b25e6ed5eea149",
+                "sha256:d3ec55e0bb321692d275455ddfd3df75fff145d009685eb40dc91fc66b03d38b"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.10'",
-            "version": "==0.52.1"
+            "version": "==1.0.0"
         },
         "typing-extensions": {
             "hashes": [
