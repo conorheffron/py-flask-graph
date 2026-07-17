@@ -27,12 +27,12 @@
         },
         "ariadne": {
             "hashes": [
-                "sha256:502fc2869cdd67822c69b846bece9f811e70868feb9a191186a4a802bf56b06d",
-                "sha256:aedc21a0bb047e7564b2c1f1d72f21fb47e347acb5a166e6f7bf3cecdd12bbe7"
+                "sha256:1f5ee6fa0a2fe855b7587cccb8a5d24ff8c982789b15d860aed58c509aad9b48",
+                "sha256:847b5b399e56e4781f851b4ee3f3fd443d6c379e64a4828a792e8264b597c9e4"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.10'",
-            "version": "==1.0.1"
+            "version": "==1.1.0"
         },
         "blinker": {
             "hashes": [
